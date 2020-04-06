@@ -189,3 +189,87 @@
   189  ls
   190  history 
   191  history > History_Day1.txt
+  192  git add . ; git commit -m "History_Day1.txt"; git push 
+  193  ls
+  194  git config --list 
+  195  ls
+  196  git branch 
+  197  git checkout master
+  198  ls
+  199  git branch 
+  200  ls
+  201  git merge production 
+  202  git status 
+  203  ls
+  204  git commit -m "Merge"
+  205  git add . 
+  206  git commit -m "Merge"
+  207  git log 
+  208  ls
+  209  git checkout production 
+  210  ls
+  211  git pull
+  212  git merge production 
+  213  git log 
+  214  git branch 
+  215  echo "Hello Test" > test.txt
+  216  git commit -m "test"
+  217  git add . git commit -m "test"
+  218  git add . ; git commit -m "test"
+  219  ls
+  220  git logs 
+  221  git log
+  222  git checkout production 
+  223  ls
+  224  git push 
+  225  ls
+  226  git log 
+  227  git checkout master
+  228  git log 
+  229  git show HEAD
+  230  echo "Tag Testing -1" > Tag_Test.txt
+  231  git add . ; git commit -m "Tag_Test.txt"
+  232  git show HEAD
+  233  ls
+  234  git log 
+  235  ls
+  236  cat Tag_Test.txt 
+  237  git tag
+  238  git tag myrelease_2020_04_06_v1
+  239  git tag
+  240  git push --tags 
+  241  ls
+  242  cat Tag_Test.txt 
+  243  for i in {1..10}; do echo "Hello -1" >>  Hello.txt; git add . ; git commit "Hello $i"; done
+  244  ls
+  245  echo "Hello^C1" >>  Hello.txt
+  246  git a dd . ; git commit "Hello 1"
+  247  for i in {1..10}; do echo "Hello -1" >>  Hello.txt; git add . ; git commit "Hello $i"; done
+  248  for i in {1..10}; do echo "Hello -1" >>  Hello.txt; git  add . ; git commit -m "Hello $i"; done
+  249  ls
+  250  cat Tag_Test.txt 
+  251  echo "Tag Testing -2" > Tag_Test.txt
+  252  history 
+  253  git tag myrelease_2020_04_06_v2
+  254  git push --tags
+  255  for i in {21..25}; do echo "Hello -1" >>  Hello.txt; git  add . ; git commit -m "Hello $i"; done
+  256  git add . 
+  257  git push 
+  258  git tags 
+  259  git tag
+  260  git checkout myrelease_2020_04_06_v1
+  261  ls
+  262  cat Hello.txt 
+  263  cat Tag_Test.txt 
+  264  git tag 
+  265  git checkout myrelease_2020_04_06_v2
+  266  ls
+  267  wc -l Hello.txt 
+  268  cat Hello.txt 
+  269  cat Hello.txt | wc -l 
+  270  ls
+  271  git branch
+  272  git checkout master 
+  273  cat Hello.txt | wc -l 
+  274  ls
+  275  history > History_Day1.txt 
